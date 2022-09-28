@@ -13,3 +13,7 @@ Visit http://localhost:5000`);
 app.get('/',(req,res) => {
     res.send("This is a sample express app")
 })
+
+app.get('/teste',(req,res) => {
+    res.send("This is a sample express app")
+})
